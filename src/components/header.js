@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Layout from "./layout"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -40,6 +41,7 @@ const Header = ({ siteTitle }) => (
                   textDecoration: "none",
                   fontSize: "x-large",
                 }}
+                activeStyle={{ color: "red" }}
                 to="/"
               >
                 Home
@@ -47,6 +49,7 @@ const Header = ({ siteTitle }) => (
             </li>
             <li style={{ display: "inline-block", marginRight: "1rem" }}>
               <Link
+                activeStyle={{ color: "red" }}
                 style={{
                   color: "white",
                   textDecoration: "none",
@@ -64,9 +67,23 @@ const Header = ({ siteTitle }) => (
                   textDecoration: "none",
                   fontSize: "x-large",
                 }}
+                activeStyle={{ color: "red" }}
                 to="/page-3"
               >
                 Page 3
+              </Link>
+            </li>
+            <li style={{ display: "inline-block", marginRight: "1rem" }}>
+              <Link
+                to="/about"
+                style={{
+                  color: "white",
+                  textDecoration: "none",
+                  fontSize: "x-large",
+                }}
+                activeStyle={{ color: "red" }}
+              >
+                About
               </Link>
             </li>
           </ul>
