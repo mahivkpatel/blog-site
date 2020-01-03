@@ -1,3 +1,60 @@
+body,
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+body,
 html {
-  background-color: lavenderblush;
+  height: 100%;
+}
+p {
+  line-height: 2;
+}
+.bgimg,
+.bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg,
+.bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {
+  background-image: url("../images/connect.jpg");
+}
+.bgimg2 {
+  background-image: url("../images/main2.jpg");
+}
+.w3-center {
+  text-align: center;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+img.galley-img {
+  width: auto; /* set to anything and aspect ratio is maintained - also corrects glitch in Internet Explorer */
+  height: auto; /* set to anything and aspect ratio is maintained */
+  max-width: 100%;
+  border: 0;
+  max-height: 660px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }

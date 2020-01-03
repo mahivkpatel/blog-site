@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d878f46b-25c2-4996-a3b4-38b4dda373c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/connect.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/main2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog-post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page-3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page-3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +21,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
-        <option value="JavaScript File" />
         <option value="XSLT Stylesheet" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,11 +40,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\project\reactjs\gatsby\first-gatsby-site\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\reactjs\gatsby\first-gatsby-site\src\images" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -67,7 +74,12 @@
       <option name="presentableId" value="Default" />
       <updated>1577002570603</updated>
       <workItem from="1577002573831" duration="10139000" />
-      <workItem from="1577376123735" duration="2621000" />
+      <workItem from="1577376123735" duration="3441000" />
+      <workItem from="1577981952437" duration="1067000" />
+      <workItem from="1577986652700" duration="872000" />
+      <workItem from="1578062821958" duration="4411000" />
+      <workItem from="1578069537227" duration="1057000" />
+      <workItem from="1578070611765" duration="3497000" />
     </task>
     <servers />
   </component>
@@ -75,13 +87,32 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1577007022360">
+    <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1578064646663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577007022360" />
+    <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578064646663" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1577007033156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577007033156" />
+    <state x="490" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578065685977">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1578065685977" />
+    <state x="462" y="10" width="611" height="804" key="find.popup" timestamp="1578073523323">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="10" width="611" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578073523323" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/header.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
