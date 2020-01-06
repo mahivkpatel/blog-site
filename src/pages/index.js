@@ -3,11 +3,17 @@ import "../styles/main.scss"
 import Layout from "../components/layout"
 import Main from "../images/main.jpg"
 import Togather from "../images/togather.jpg"
-import Goa from "../images/goa_beach.jpg"
+import Goa from "../images/ice.jpg"
 import fisrtPic from "../images/f1.jpg"
 import fisrtPicMrg from "../images/fisrt-mrg1.jpg"
 import mumbai from "../images/mumbai.jpg"
-import lomavala from "../images/lonavala.jpg"
+import lomavala from "../images/nice.jpg"
+import dam from "../images/dam.jpg"
+import nice from "../images/dam2.jpg"
+import love from "../images/love.jpg"
+import m1 from "../images/m1.jpg"
+import l1 from "../images/l1.jpg"
+import l4 from "../images/l4.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -16,7 +22,7 @@ const IndexPage = () => (
         className="w3-display-container w3-wide bgimg w3-grayscale-min"
         id="home"
       >
-        <div className="w3-display-middle w3-text-white w3-center">
+        <div className="w3-text-white w3-center">
           <h1 className="w3-jumbo">Sagar and Mohini</h1>
           <h2>Are In Love</h2>
           <h2>
@@ -46,7 +52,7 @@ const IndexPage = () => (
             style={{ width: `25%` }}
             className="w3-bar-item w3-button"
           >
-            Wedding
+            happiness
           </a>
           <a
             href="#rsvp"
@@ -66,11 +72,17 @@ const IndexPage = () => (
           <h1 className="w3-center w3-text-grey">
             <b>Mohini and sagar</b>
           </h1>
-          <img
-            className="w3-round w3-grayscale-min"
-            src={Main}
-            style={{ width: `100%`, margin: `32px 0` }}
-          />
+          <section className="slideshow">
+            <div className="slideshow-container slide">
+              <img src={l1} />
+              <img src={m1} />
+              <img src={l4} />
+              <img src={nice} />
+              <img src={Togather} />
+              <img src={lomavala} />
+              <img src={fisrtPic} />
+            </div>
+          </section>
           <p>
             <i>
               Thank you for being you. For sharing your love with me. For
@@ -82,38 +94,35 @@ const IndexPage = () => (
           <br />
         </div>
       </div>
-
-      <div className="w3-display-container bgimg2">
-        <div className="w3-display-middle w3-text-white w3-center">
-          <h1 className="w3-jumbo">You Are Invited</h1>
-          <br />
-          <h2>Of course..</h2>
-        </div>
-      </div>
-
+      <img
+        className="w3-round-large w3-grayscale-min"
+        src={love}
+        style={{ width: `100%`, margin: `64px 0` }}
+      />
       <div
         className="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center"
         id="wedding"
       >
         <div className="w3-content">
           <h1 className="w3-text-grey">
-            <b>THE WEDDING</b>
+            <b>THE HAPPINESS</b>
           </h1>
           <img
             className="w3-round-large w3-grayscale-min"
-            src={Togather}
+            src={nice}
             style={{ width: `100%`, margin: `64px 0` }}
           />
           <div className="w3-row">
             <div className="w3-half">
               <h2>When</h2>
-              <p>Wedding Ceremony - 2:00pm</p>
-              <p>Reception & Dinner - 5:00pm</p>
+              <p>Break time</p>
+              <p>After 3:30</p>
+              <p>Long drive</p>
             </div>
             <div className="w3-half">
               <h2>Where</h2>
-              <p>Some place, an address</p>
-              <p>Some where, some address</p>
+              <p>fruit dish</p>
+              <p>On way to home</p>
             </div>
           </div>
         </div>
@@ -185,11 +194,20 @@ const IndexPage = () => (
 
           <div className="gallery">
             <a target="_blank" href="#">
-              <img src={mumbai} alt="Mountains" width="600" height="400" />
+              <img src={m1} alt="Mountains" width="600" height="400" />
             </a>
             <div className="desc">
               Most awaited trip, our second trip..late nigth at juhu beach and
               marin drive and thank for my tender coconut
+            </div>
+          </div>
+          <div className="gallery">
+            <a target="_blank" href="#">
+              <img src={dam} alt="dam" width="600" height="400" />
+            </a>
+            <div className="desc">
+              Here we both are made for each other.Everything will fall in place
+              when I meet to you. Because we were made to complete each other.
             </div>
           </div>
         </div>

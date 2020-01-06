@@ -13,6 +13,9 @@ html {
 p {
   line-height: 2;
 }
+.w3-display-middle {
+  position: unset;
+}
 .bgimg,
 .bgimg2 {
   min-height: 100%;
@@ -26,19 +29,36 @@ p {
   background-size: cover;
 }
 .bgimg {
+  opacity: 0.4;
+  filter: alpha(opacity=100);
+  background-image: url("../images/connect.jpg");
+}
+.bgimg:hover {
+  opacity: 1;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
   background-image: url("../images/connect.jpg");
 }
 .bgimg2 {
   background-image: url("../images/main2.jpg");
 }
+
+.w3-grayscale-min {
+  filter: none !important;
+  transition: transform 0.5s ease-in-out;
+}
+
 .w3-center {
   text-align: center;
+}
+.d-flex {
+  display: flex;
 }
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  height: 400px;
+  width: 230px;
 }
 
 img.galley-img {
@@ -59,5 +79,96 @@ div.gallery img {
 
 div.desc {
   padding: 15px;
+  text-align: center;
+}
+
+/*slideshow styles*/
+
+.slideshow {
+  width: 625px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: solid 1px white;
+}
+
+.slideshow-container {
+  width: 2500px;
+  font-size: 0;
+  transition: 1s ease;
+  height: 450px;
+}
+
+.slideshow-container:hover {
+  animation-play-state: paused;
+}
+
+img,
+.text-container {
+  width: 625px;
+  height: auto;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-container {
+  height: 225px;
+  position: relative;
+}
+
+p {
+  position: relative;
+  top: -45%;
+  padding: 5px;
+}
+
+.slide {
+  animation: slide 24s ease infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  12.5% {
+    transform: translateX(0%);
+  }
+
+  25% {
+    transform: translateX(-25%);
+  }
+
+  37.5% {
+    transform: translateX(-25%);
+  }
+
+  50% {
+    transform: translateX(-50%);
+  }
+
+  62.5% {
+    transform: translateX(-50%);
+  }
+
+  75% {
+    transform: translateX(-75%);
+  }
+
+  87.5% {
+    transform: translateX(-75%);
+  }
+
+  99% {
+    transform: translateX(-75%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.p {
+  margin-top: 140px;
   text-align: center;
 }
