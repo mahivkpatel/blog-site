@@ -1,13 +1,10 @@
 import React from "react"
 import "../styles/main.scss"
 import Layout from "../components/layout"
-import Main from "../images/main.jpg"
 import Togather from "../images/togather.jpg"
 import Goa from "../images/ice.jpg"
 import fisrtPic from "../images/f1.jpg"
 import fisrtPicMrg from "../images/fisrt-mrg1.jpg"
-import mumbai from "../images/mumbai.jpg"
-import lomavala from "../images/nice.jpg"
 import dam from "../images/dam.jpg"
 import nice from "../images/dam2.jpg"
 import love from "../images/love.jpg"
@@ -23,8 +20,10 @@ const IndexPage = () => (
         id="home"
       >
         <div className="w3-text-white w3-center">
-          <h1 className="w3-jumbo">Sagar and Mohini</h1>
-          <h2>Are In Love</h2>
+          <h1 className="w3-jumbo">
+            Sagar <span style={{ color: `red` }}>&hearts;</span> Mohini
+          </h1>
+          <h2>Happy Anniversary!</h2>
           <h2>
             <b>22.01.2019</b>
           </h2>
@@ -70,19 +69,32 @@ const IndexPage = () => (
       >
         <div className="w3-content">
           <h1 className="w3-center w3-text-grey">
-            <b>Mohini and sagar</b>
+            <b className="happy">Happy couple</b>
           </h1>
-          <section className="slideshow">
-            <div className="slideshow-container slide">
-              <img src={l1} />
-              <img src={m1} />
-              <img src={l4} />
-              <img src={nice} />
-              <img src={Togather} />
-              <img src={lomavala} />
-              <img src={fisrtPic} />
-            </div>
-          </section>
+          <div id="captioned-gallery">
+            <figure className="slider">
+              <figure>
+                <img src={l1} />
+                <figcaption>Mumbai</figcaption>
+              </figure>
+              <figure>
+                <img src={m1} />
+                <figcaption>Imegica</figcaption>
+              </figure>
+              <figure>
+                <img src={l4} />
+                <figcaption>Lonavala</figcaption>
+              </figure>
+              <figure>
+                <img src={nice} />
+                <figcaption>Bhushi dam</figcaption>
+              </figure>
+              <figure>
+                <img src={Togather} />
+                <figcaption>Love</figcaption>
+              </figure>
+            </figure>
+          </div>
           <p>
             <i>
               Thank you for being you. For sharing your love with me. For
@@ -105,7 +117,7 @@ const IndexPage = () => (
       >
         <div className="w3-content">
           <h1 className="w3-text-grey">
-            <b>THE HAPPINESS</b>
+            <b className="happy">The happiness</b>
           </h1>
           <img
             className="w3-round-large w3-grayscale-min"
@@ -113,17 +125,31 @@ const IndexPage = () => (
             style={{ width: `100%`, margin: `64px 0` }}
           />
           <div className="w3-row">
+            <h1 className="w3-text-grey">
+              <b className="happy">Favorite time</b>
+            </h1>
             <div className="w3-half">
               <h2>When</h2>
               <p>Break time</p>
               <p>After 3:30</p>
               <p>Long drive</p>
+              <p>And the day we connected</p>
             </div>
             <div className="w3-half">
               <h2>Where</h2>
-              <p>fruit dish</p>
+              <p>Fruit dish</p>
+              <p>Saputara</p>
               <p>On way to home</p>
+              <p>22/01/2019</p>
             </div>
+          </div>
+          <div className="w3-row">
+            <i>
+              The most wonderful thing I decided to do was to share my life and
+              heart with you.I find myself lucky as I found my best friend and
+              soul mate in my husband and nothing feels better than this!...I
+              love you a lot!
+            </i>
           </div>
         </div>
       </div>
@@ -131,7 +157,9 @@ const IndexPage = () => (
         className="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center"
         id="rsvp"
       >
-        <h3 className="w3-center">Here is our time Togather</h3>
+        <h1 className="w3-text-grey w3-center">
+          <b className="happy">Here is our time Together</b>
+        </h1>
         <div className="img-galley">
           <div className="gallery">
             <a target="_blank" href="#">
