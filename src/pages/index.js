@@ -29,7 +29,6 @@ const IndexPage = () => (
           </h2>
         </div>
       </header>
-
       <div className="w3-bottom w3-hide-small">
         <div className="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
           <a
@@ -62,7 +61,6 @@ const IndexPage = () => (
           </a>
         </div>
       </div>
-
       <div
         className="w3-container w3-padding-64 w3-pale-red w3-grayscale-min"
         id="us"
@@ -97,10 +95,10 @@ const IndexPage = () => (
           </div>
           <p>
             <i>
-              Thank you for being you. For sharing your love with me. For
-              inspiring me to accept myself. For helping me see the unique
-              beauty in imperfection. For showing me that love is something you
-              do; something not to just be said, but also to be shown.
+              You are my always & forever. My happily ever after. My soulmate.
+              My best friend. My dream come true. My one & only. My shoulder to
+              lean on. My heart to melt into. My husband. My everything. For
+              always!
             </i>
           </p>
           <br />
@@ -119,6 +117,9 @@ const IndexPage = () => (
           <h1 className="w3-text-grey">
             <b className="happy">The happiness</b>
           </h1>
+          <h3>
+            <i>Everything in lif has limit except my Love for you.</i>
+          </h3>
           <img
             className="w3-round-large w3-grayscale-min"
             src={nice}
@@ -131,18 +132,19 @@ const IndexPage = () => (
             <div className="w3-half">
               <h2>When</h2>
               <p>Break time</p>
-              <p>After 3:30</p>
               <p>Long drive</p>
+              <p>First dinner</p>
               <p>And the day we connected</p>
             </div>
             <div className="w3-half">
               <h2>Where</h2>
               <p>Fruit dish</p>
-              <p>Saputara</p>
               <p>On way to home</p>
+              <p>Sugar & spice</p>
               <p>22/01/2019</p>
             </div>
           </div>
+          <br /> <br />
           <div className="w3-row">
             <i>
               The most wonderful thing I decided to do was to share my life and
@@ -173,8 +175,8 @@ const IndexPage = () => (
             </a>
             <div className="desc">
               Here is our first pic after committed our relationship, it's means
-              lot. our first memory. I never want to stop making memories with
-              you"
+              lot.our first memory. I never want to stop making memories with
+              you
             </div>
           </div>
 
@@ -190,7 +192,9 @@ const IndexPage = () => (
             </a>
             <div className="desc">
               A very special day It's day we are officially connected to each
-              other for life.
+              other for life.Husband and wife relationships are like the
+              relationship of Tom and Jerry. Though they are teasing and
+              fighting, but can’t live without each other.
             </div>
           </div>
 
@@ -205,8 +209,10 @@ const IndexPage = () => (
               />
             </a>
             <div className="desc">
-              Our First trip..Where I enjoy lots .... and many more left that
-              you now bcoz you'r wify like to travel{" "}
+              Our First trip Goa, my first flight, favorite beaches, late nigth
+              walking, shopping and many more. I enjoy lots....it's not over
+              here many more trip are pending bcoz you know you'r wify like to
+              travel.
             </div>
           </div>
 
@@ -216,7 +222,7 @@ const IndexPage = () => (
             </a>
             <div className="desc">
               We attend First marriage. remember sagar you always wait to see
-              what I've wear so you can match me..
+              what I've wear. so you can match me..
             </div>
           </div>
 
@@ -225,8 +231,8 @@ const IndexPage = () => (
               <img src={m1} alt="Mountains" width="600" height="400" />
             </a>
             <div className="desc">
-              Most awaited trip, our second trip..late nigth at juhu beach and
-              marin drive and thank for my tender coconut
+              Most awaited trip Mumbai-Lonavala , our second trip..late nigth at
+              juhu beach and marin drive and thank for my tender coconut..
             </div>
           </div>
           <div className="gallery">
@@ -234,11 +240,21 @@ const IndexPage = () => (
               <img src={dam} alt="dam" width="600" height="400" />
             </a>
             <div className="desc">
-              Here we both are made for each other.Everything will fall in place
-              when I meet to you. Because we were made to complete each other.
+              We both are made for each other. Everything will fall in place
+              when I meet to you. Because we were made to complete each other.I
+              cannot promise you an easy life, or that I will not disappoint
+              you. I cannot promise that I will be the perfect wife.But I can
+              promise you that I will choose to love you every day.
             </div>
           </div>
         </div>
+      </div>
+      <div className="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center">
+        <h5>
+          I Can’t Promise To Solve All Your Problems, I Can Only Promise That I
+          Will Never Let You Face Them Alone! .. I will always there for you ..
+          love you
+        </h5>
       </div>
     </body>
   </Layout>
