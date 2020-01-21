@@ -95,10 +95,12 @@ const IndexPage = () => (
           </div>
           <p>
             <i>
-              You are my always & forever. My happily ever after. My soulmate.
-              My best friend. My dream come true. My one & only. My shoulder to
-              lean on. My heart to melt into. My husband. My everything. For
-              always!
+              Happy wedding anniversary, my dear husband, Who is the reason for
+              my joyful days. Who has shown me what true love is Who always
+              supports and encourages me. Who always care for me. I am so proud
+              to be your wife, You are my always & forever. My soulmate. My best
+              friend. My shoulder to lean on. My heart to melt into. My husband.
+              My everything. For always! Love you!
             </i>
           </p>
           <br />
@@ -117,11 +119,11 @@ const IndexPage = () => (
           <h1 className="w3-text-grey">
             <b className="happy">The happiness</b>
           </h1>
-          <h3>
+          <h4>
             <i>Everything in lif has limit except my Love for you.</i>
-          </h3>
+          </h4>
           <img
-            className="w3-round-large w3-grayscale-min"
+            className="w3-round-large w3-grayscale-min box"
             src={nice}
             style={{ width: `100%`, margin: `64px 0` }}
           />
@@ -250,11 +252,11 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center">
-        <h5>
-          I Can’t Promise To Solve All Your Problems, I Can Only Promise That I
-          Will Never Let You Face Them Alone! .. I will always there for you ..
-          love you
-        </h5>
+        <h6>
+          I can’t promise to solve all your problems, I can only promise that I
+          will never let you face them alone! .. I will always there for you. I
+          will support you in any situation .. love you
+        </h6>
       </div>
     </body>
   </Layout>

@@ -61,8 +61,12 @@ div.gallery {
   float: left;
   height: 400px;
   width: 230px;
+  box-shadow: 2px 2px;
 }
 
+.box {
+  box-shadow: 2px 2px;
+}
 img.galley-img {
   width: auto; /* set to anything and aspect ratio is maintained - also corrects glitch in Internet Explorer */
   height: auto; /* set to anything and aspect ratio is maintained */
@@ -243,7 +247,6 @@ figure.slider figure figcaption {
   font-size: 2rem;
   padding: 0.6rem;
 }
-
 
 .happy {
   font-size: 150%;
